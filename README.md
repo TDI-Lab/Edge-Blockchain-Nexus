@@ -8,4 +8,5 @@ Then, remove the papers as the following criteria:
 3. Predatory journals or conferences
 4. Small pages (< 5)
 5. Outdated (year < 2015)
+
 Finally, it outputs the `final_output_file.csv` that lists the remaining papers. The dataset and output files are listed in `output_audit/`.
