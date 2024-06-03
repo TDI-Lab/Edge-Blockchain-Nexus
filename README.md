@@ -11,6 +11,11 @@ Then, remove the papers as the following criteria:
 
 Finally, it outputs the `final_output_file.csv` that lists the remaining papers. The dataset and output files are listed in `output_audit/`.
 
+## Descriptive Analysis
+The `descriptive_analysis/` folder contains code to derive the descriptive statistics of the reviewed 922 papers.
+The `Encoding.docx` file lists the encoding and the name of each attribute in the dataset.
+Run `data_analysis.ipynb` to get statistical data and plots of the dataset. Code block 1 defines necessary functions and preprocessing steps. Code block 2-13 reads the dataset and outputs data used as input to generate graphs on rawgraphs.io. Code block 14-24 generates graphs and saves them in the `descriptive_analysis/output/` folder.
+
 ## Analytics using Machine Learning
 It includes the data analysis of reviewed papers using clustering, multiple correspondence analysis (MCA), feature importance, correlation and classficiation. It lists the methodology coding and output results in `Analytics_ML/`:
 1. `DimensionToBurtMatrix.py` transforms the paper data in `ReviewedRecords.xlsx` to binary data, where **1** denotes the paper studies the attribute of study dimension (e.g., PROB_TR); **0** denotes the paper does not have. It outputs the file `output/binary_matrix.csv`.
