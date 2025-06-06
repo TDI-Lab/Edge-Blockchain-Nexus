@@ -1,4 +1,8 @@
 # Edge-Blockchain-Nexus
+This repository contains the code and data for the systematic literature review of papers with blockchain and edge computing nexus.
+
+## Methodology and Data Encoding
+See `SLR-Methodology-Coding-v0.pdf` for the methodology of the systematic literature review and the data encoding.
 
 ## Paper Removal
 Run `PaperRemoval.ipynb` to merge the papers from scopus, web of science, and ScienceDirect.
